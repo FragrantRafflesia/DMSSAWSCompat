@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>The Dead Man's Switch - Seburo Weapons Patch</name>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/NaraLogo</modIconPath>
+  	<author>Anya</author>
+    	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<packageId>Anya.DMS.SAWS.Compat</packageId>
+    <modDependencies>
+        	<li>
+			<packageId>Aoba.DeadManSwitch.Core</packageId>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3121742525</steamWorkshopUrl>
+			<displayName>Dead Man Switch</displayName>
+		</li>
+		<li>
+			<packageId>moistestwhale.sacguns</packageId>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3257892278</steamWorkshopUrl>
+			<displayName>GiTS Seburo Advanced Weapon Systems</displayName>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Aoba.DeadManSwitch.Core</li>
+		<li>moistestwhale.sacguns</li>
+  	</loadAfter>
+	<description>Patches Dead Man's Switch to allow Automatroids to use weapons from Seburo Advanced Weapon Systems.</description>
+</ModMetaData>
