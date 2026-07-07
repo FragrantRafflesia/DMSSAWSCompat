@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
+    <!-- Falcon -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DMS_Mech_Falcon"]/modExtensions/li[@Class="Fortified.MechWeaponExtension"]/UsableWeaponTags</xpath>
+    <value>
+		<li>SAC_SMG</li>
+    </value>
+  </Operation>
+  
+      <!-- Battle Friend -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DMS_Mech_BattleFrame"]/modExtensions/li[@Class="Fortified.MechWeaponExtension"]/UsableWeaponTags</xpath>
+    <value>
+		<li>SAC_Pistol</li>
+		<li>SAC_SMG</li>
+		<li>SAC_HMG</li>
+    </value>
+  </Operation>
+  
+        <!-- Field Command -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DMS_Mech_FieldCommand"]/modExtensions/li[@Class="Fortified.MechWeaponExtension"]/UsableWeaponTags</xpath>
+    <value>
+		<li>SAC_Pistol</li>
+    </value>
+  </Operation>
+  
+          <!-- Escort Lifter -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DMS_Mech_EscortLifter"]/modExtensions/li[@Class="Fortified.MechWeaponExtension"]/UsableWeaponTags</xpath>
+    <value>
+		<li>SAC_Pistol</li>
+    </value>
+  </Operation>
+
     <!-- Soldat -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DMS_Mech_Soldat"]/modExtensions/li[@Class="Fortified.MechWeaponExtension"]/UsableWeaponTags</xpath>
     <value>
-      <li>SAC_Gun</li>
       <li>SAC_Pistol</li>
       <li>SAC_SMG</li>
     </value>
@@ -15,7 +48,6 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DMS_Mech_Grenadier"]/modExtensions/li[@Class="Fortified.MechWeaponExtension"]/UsableWeaponTags</xpath>
     <value>
-      <li>SAC_Gun</li>
       <li>SAC_Pistol</li>
     </value>
   </Operation>
@@ -24,7 +56,6 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DMS_Mech_Sergeant"]/modExtensions/li[@Class="Fortified.MechWeaponExtension"]/UsableWeaponTags</xpath>
     <value>
-      <li>SAC_Gun</li>
       <li>SAC_Pistol</li>
       <li>SAC_SMG</li>
     </value>
@@ -85,7 +116,6 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DMS_Mech_Ronin"]/modExtensions/li[@Class="Fortified.MechWeaponExtension"]/UsableWeaponTags</xpath>
     <value>
-      <li>SAC_Gun</li>
       <li>SAC_Pistol</li>
       <li>SAC_SMG</li>
     </value>
@@ -95,7 +125,6 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DMS_Mech_Siegebreaker"]/modExtensions/li[@Class="Fortified.MechWeaponExtension"]/UsableWeaponTags</xpath>
     <value>
-      <li>SAC_Gun</li>
       <li>SAC_Pistol</li>
       <li>SAC_SMG</li>
     </value>
